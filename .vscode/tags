@@ -29,15 +29,15 @@ func	../argument_parsing_example.py	/^func = FUNCTION_MAP[args.command]$/;"	kind
 generate	../generator.py	/^    def generate(self):$/;"	kind:member	line:10
 generate	../name-generators/component_name_generator.py	/^    def generate(self):$/;"	kind:member	line:20
 generate	../name-generators/simple_name_generator.py	/^    def generate(self):$/;"	kind:member	line:20
-generate	../tavern-generator/tavern_generator.py	/^    def generate(self):$/;"	kind:member	line:34
+generate	../tavern-generator/tavern_generator.py	/^    def generate(self):$/;"	kind:member	line:32
 generator.py	../generator.py	1;"	kind:file	line:1
 json	../name-generators/component_name_generator.py	/^    json = ''$/;"	kind:variable	line:10
 json	../name-generators/component_name_generator.py	/^import json$/;"	kind:namespace	line:2
 json	../name-generators/simple_name_generator.py	/^    json = ''$/;"	kind:variable	line:10
 json	../name-generators/simple_name_generator.py	/^import json$/;"	kind:namespace	line:2
 json	../tavern-generator/tavern_generator.py	/^import json$/;"	kind:namespace	line:1
-load_json	../tavern-generator/tavern_generator.py	/^    def load_json(self, filepath):$/;"	kind:member	line:28
-main	../main.py	/^def main():$/;"	kind:function	line:21
+load_json	../tavern-generator/tavern_generator.py	/^    def load_json(self, filepath):$/;"	kind:member	line:26
+main	../main.py	/^def main():$/;"	kind:function	line:25
 main.py	../main.py	1;"	kind:file	line:1
 os	../generator.py	/^        import os$/;"	kind:namespace	line:4
 parser	../argument_parsing_example.py	/^parser = argparse.ArgumentParser($/;"	kind:variable	line:8
@@ -47,7 +47,7 @@ random	../tavern-generator/tavern_generator.py	/^import random$/;"	kind:namespac
 setup	../generator.py	/^    def setup(self):$/;"	kind:member	line:7
 setup	../name-generators/component_name_generator.py	/^    def setup(self):$/;"	kind:member	line:12
 setup	../name-generators/simple_name_generator.py	/^    def setup(self):$/;"	kind:member	line:12
-setup	../tavern-generator/tavern_generator.py	/^    def setup(self):$/;"	kind:member	line:19
+setup	../tavern-generator/tavern_generator.py	/^    def setup(self):$/;"	kind:member	line:17
 simple_name_generator.py	../name-generators/simple_name_generator.py	1;"	kind:file	line:1
 sys	../main.py	/^import sys$/;"	kind:namespace	line:2
 tavern_generator.py	../tavern-generator/tavern_generator.py	1;"	kind:file	line:1
