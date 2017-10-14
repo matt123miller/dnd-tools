@@ -12,17 +12,12 @@ class Simple_Name_Generator(Generator):
     def setup(self):
         # Get json with the filepath
         dir_path = self.directory(__file__)
-
-        with open(dir_path + '/simple_names.json') as json_file:
-            self.json = json.loads(json_file.read())
+        self.json = self.load_json(dir_path + '/simple_names.json')
         return self.json
 
     def generate(self):
-        # Simple name generator just takes a first and second name out of the json file.
 
         full_name = ''
         for key in self.json:
-
             full_name += random.choice(self.json[key]) + ' '
-
         return full_name.title()

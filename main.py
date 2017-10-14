@@ -20,8 +20,6 @@ COMMAND_MAP = {
 # TODO: Split the argparse setup into it's own function?
 
 
-
-
 def main():
 
     # Parse some input to decide what to generate.
@@ -53,7 +51,7 @@ def main():
     if repeats <= 0:
         print('Please supply a positive integer for your -n argument')
 
-    # TODO: Is there a nice way to add additional generators form the optional commands?
+    # TODO: Is there a nice way to add additional generators from the optional commands?
     # Like Additional_Generators = A list of classes from a map.
     # Loop that list and execute each generator, appending the results?
 

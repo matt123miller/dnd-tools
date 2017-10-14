@@ -23,12 +23,6 @@ class Tavern_Generator(Generator):
         self.verbs = self.load_json(dir_path + '/verbs.json')
         self.patrons = []
 
-    def load_json(self, filepath):
-        return_json = ''
-        with open(filepath) as json_file:
-            return_json = json.loads(json_file.read())
-        return return_json
-
     def generate(self):
         # This function doens't feel very pythony right now.
         # How to make that better?
