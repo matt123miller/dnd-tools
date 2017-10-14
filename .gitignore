@@ -1,3 +1,6 @@
+# My own shit
+.vscode/tags
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
