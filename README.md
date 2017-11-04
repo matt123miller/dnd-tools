@@ -11,10 +11,13 @@ Working on some automation for my dnd games. Mostly generating the names of thin
 For now you need to:
  - Open a terminal in the root of the project folder.
  - Enter `python main.py` followed by a variety of arguments
+ ```
+ $ dnd-tools: python main.py SOME_ARGUMENTS
+ ```
 
 In the future I'll make it a proper CLI app available anywhere.
 
-## Example usage
+### Example usage
 
 Generate 3 simple names
 
