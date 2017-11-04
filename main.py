@@ -46,7 +46,8 @@ def main():
     args = parser.parse_args()
 
     repeats = args.number
-    title = args.title
+    # TODO: this is part of the title section. Should probably add a check here later.
+    # title = args.title
 
     # There must be a better way to ensure this? Maybe some argparse configuration?
     if repeats <= 0:
