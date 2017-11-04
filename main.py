@@ -35,8 +35,9 @@ def main():
     # but I found the answer here: https://stackoverflow.com/a/16968273/6488602
 
     # Optional arguments
-    parser.add_argument(
-        '-t', '--title', metavar='\b', dest='title', help="Optionally generate a title to append to the name.", type=str)
+    # TODO: Add the -t behaviour
+    # parser.add_argument(
+    #    '-t', '--title', metavar='\b', dest='title', help="Optionally generate a title to append to the name.", type=str)
 
     parser.add_argument(
         "-n", '--number', metavar='\b', dest='number', default=1,
